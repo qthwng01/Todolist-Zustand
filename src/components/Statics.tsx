@@ -29,7 +29,7 @@ const Statics = () => {
             <div className="flex flex-col">
               <div className="w-full inline-flex justify-between">
                 <span>Progress</span>
-                <span>{progress + '%' || '0%'}</span>
+                <span>{Math.round(progress) + '%' || '0%'}</span>
               </div>
               <Progress className="my-2" value={progress} />
             </div>

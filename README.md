@@ -63,3 +63,12 @@ pnpm dev
 ├── tsconfig.json        # TypeScript configuration
 └── vite.config.ts       # Vite configuration
 ```
+
+## References
+
+- [Zustand](URL_ADDRESS.com/pmndrs/zustand)
+
+- [Design 1](https://dribbble.com/shots/19752197-Task-Management-App)
+
+- [Design 2](https://www.behance.net/gallery/159632283/Task-Management-Mobile-App?tracking_source=search_projects|todo+list&l=1)
+

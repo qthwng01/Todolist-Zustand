@@ -1,0 +1,13 @@
+# wrangler.toml for Pages
+name = "learn-zustand"
+main = "build/index.html"  # Entry point for Pages
+compatibility_date = "2025-03-29"
+asset = {directory: "build"}
+
+[build]
+command = "npm run build"
+# upload_dir = "dist" # For Vite
+
+[build.upload]
+format = "modules"
+main = "./build/index.html"  # Or your entry HTML file

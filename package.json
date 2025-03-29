@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preview:worker": "npm run build && wrangler dev",
+    "deloy:worker": "npm run build && wrangler deloy"
   },
   "dependencies": {
     "@hookform/resolvers": "^4.1.3",

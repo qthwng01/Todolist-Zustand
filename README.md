@@ -7,7 +7,7 @@ This is a simple todolist app built with Zustand. Save data in local storage.
 - React
 - Zustand
 - Tailwind CSS
-- Vite
+- Shadcnui
 - TypeScript
 - Zod
 - React Hook Form
